@@ -1,3 +1,4 @@
+export const runtime = 'nodejs';
 import { type NextRequest, NextResponse } from "next/server"
 import { validateApiKey } from "@/lib/config"
 import { incrementTotalReq } from "@/lib/helpers"
